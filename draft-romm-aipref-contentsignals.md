@@ -29,8 +29,7 @@ author:
     email: "leahromm94@gmail.com"
 
 normative:
-* RFC2119
-* RFC8174
+
 
 informative:
 * **AIPREF-VOCAB**
