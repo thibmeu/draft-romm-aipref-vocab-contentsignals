@@ -29,13 +29,13 @@ author:
     email: "leahromm94@gmail.com"
 
 normative:
-* RFC2119
-* RFC8174
+RFC2119
+RFC8174
 
 informative:
-* **AIPREF-VOCAB**
+**AIPREF-VOCAB**
     IETF AI Preferences Working Group, "AI Preferences Vocabulary", Work in Progress, Internet-Draft, draft-ietf-aipref-vocab, <https://ietf-wg-aipref.github.io/drafts/draft-ietf-aipref-vocab.html>.
-* **SUBSTITUTIVE-VOCAB**
+**SUBSTITUTIVE-VOCAB**
     B. Silver, "A Vocabulary for Substitutive AI Preferences", Work in Progress, Internet-Draft, draft-silver-aipref-vocab-substitutive-00, 8 July 2024, <https://datatracker.ietf.org/doc/html/draft-silver-aipref-vocab-substitutive-00>.
 ...
 
@@ -56,30 +56,31 @@ For the purposes of this document, in addition to the definitions in [AIPREF-VOC
 * **Search Results:** hyperlinks and short excerpts returned from contents of the retrieved asset(s)
 * **Retrieval-Augmented Generation (RAG):** A technique where external content is retrieved at query time and supplied to a model to condition the generated output. See [[SUBSTITUTIVE-VOCAB]]
 
-# Vocabulary Definition {: vocabulary}
+# Vocabulary Definition
 
-## Search {: vocab-search}
+## Search
 The act of using one or more assets to build a search index and provide Search Results. Search does not include providing AI-generated search summaries.
 The use of assets for Search is a proper subset of Automated Processing usage.
 
-## AI Input {: vocab-ai-input}
+## AI Input
 The act of inputting an asset or assets into one or more AI models for purposes of retrieval-augmented generation, grounding, or other real-time taking of content for generative AI search answers.
 The use of assets for AI Input is a proper subset of Automated Processing usage.
 
-## AI Training {: vocab-ai-train}
+## AI Training
 The act of training or fine-tuning AI models.
 The use of assets for AI Training is a proper subset of Automated Processing usage.
 
 # Usage Category Labels
 
-Each usage category in [] (vocabulary) is mapped to a short textual label. The table below (Table 2) tabulates this mapping.
+Each usage category in **Vocabulary Definition** is mapped to a short textual label. The table below (Table 2) tabulates this mapping.
 
 | Category    | Label      | Reference              |
 |:------------|:-----------|:-----------------------|
-| Search      | `search`   | [] (vocab-search)      |
-| AI Input    | `ai-input` | [] (vocab-ai-input)    |
-| AI Training | `ai-train` | [] (vocab-ai-train)    |
-: Table 1: Usage Category Labels
+| Search      | `search`   | Section 3.1            |
+| AI Input    | `ai-input` | Section 3.2            |
+| AI Training | `ai-train` | Section 3.3            |
+
+Table 1: Usage Category Labels
 
 
 # Security Considerations
