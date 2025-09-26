@@ -30,21 +30,17 @@ author:
 
 normative:
 
-
 informative:
-
 
 --- abstract
 
 This Internet Draft proposes three categories that would enable parties to express preferences regarding how digital assets are used by automated processing systems. The proposal is for these categories to nest within the larger category of Automated Processing, currently envisaged in the working group draft [[AIPREF-VOCAB]]
-
 
 --- middle
 
 # Introduction
 
 This proposal introduces and aims to define a specific set of preferences to address the need for expressing how digital assets can be used by automated systems, particularly in the context of training artificial intelligence (AI) models and generating search results. These preference categories enable clear and explicit communication of preferences regarding the use of digital assets for search indexing and AI training.
-
 
 # Conventions and Definitions
 
@@ -60,7 +56,7 @@ The act of using one or more assets to build a search index and provide Search R
 The use of assets for Search is a proper subset of Automated Processing usage.
 
 ## AI Input {: vocab-ai-input}
-The act of inputting an asset or assets into one or more AI models for purposes of retrieval-augmented generation, grounding, or other real-time taking of content for generative AI search answers. 
+The act of inputting an asset or assets into one or more AI models for purposes of retrieval-augmented generation, grounding, or other real-time taking of content for generative AI search answers.
 The use of assets for AI Input is a proper subset of Automated Processing usage.
 
 ## AI Training {: vocab-ai-train}
@@ -73,9 +69,9 @@ Each usage category in [] (vocabulary) is mapped to a short textual label. The t
 
 | Category    | Label      | Reference              |
 |:------------|:-----------|:-----------------------|
-| Search      | `search`   | [] (vocab-search)            |
-| AI Input    | `ai-input` | [] (vocab-ai-input)            |
-| AI Training | `ai-train` | [] (vocab-ai-train)            |
+| Search      | `search`   | [] (vocab-search)      |
+| AI Input    | `ai-input` | [] (vocab-ai-input)    |
+| AI Training | `ai-train` | [] (vocab-ai-train)    |
 : Table 1: Usage Category Labels
 
 
@@ -95,8 +91,6 @@ Search applications can be complex and may serve multiple purposes. Only those p
 Preferences for the Search category apply to those parts of applications that provide search capabilities, regardless of what other preferences are stated.
 Parts of applications that do not direct users to the location of assets, such as summaries, are not covered by this category of use.
 The use of assets for Search is a proper subset of Automated Processing usage.
-
-
 
 --- back
 
