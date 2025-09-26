@@ -1,8 +1,8 @@
 <!-- regenerate: on (set to off if you edit this file) -->
 
-# TODO - Your title
+# Vocabulary For Expressing Content Signals
 
-This is the working area for the individual Internet-Draft, "TODO - Your title".
+This is the working area for the individual Internet-Draft, "Vocabulary For Expressing Content Signals".
 
 * [Editor's Copy](https://l-romm.github.io/draft-romm-aipref-vocab-contentsignals/#go.draft-romm-aipref-contentsignals.html)
 * [Datatracker Page](https://datatracker.ietf.org/doc/draft-romm-aipref-contentsignals)
