@@ -29,8 +29,15 @@ author:
     email: "leahromm94@gmail.com"
 
 normative:
+* RFC2119
+* RFC8174
 
 informative:
+* **AIPREF-VOCAB**
+    IETF AI Preferences Working Group, "AI Preferences Vocabulary", Work in Progress, Internet-Draft, draft-ietf-aipref-vocab, <https://ietf-wg-aipref.github.io/drafts/draft-ietf-aipref-vocab.html>.
+* **SUBSTITUTIVE-VOCAB**
+    B. Silver, "A Vocabulary for Substitutive AI Preferences", Work in Progress, Internet-Draft, draft-silver-aipref-vocab-substitutive-00, 8 July 2024, <https://datatracker.ietf.org/doc/html/draft-silver-aipref-vocab-substitutive-00>.
+...
 
 --- abstract
 
